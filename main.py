@@ -179,7 +179,7 @@ class CustomAreaPeopleCounter:
 # 使用示例
 if __name__ == "__main__":
     # 创建检测器
-    detector = CustomAreaPeopleCounter(model_path='./yolov8n.pt', mqtt_broker='localhost',
+    detector = CustomAreaPeopleCounter(model_path='./peoplen.pt', mqtt_broker='localhost',
                                        mqtt_port=1883)
 
     # 设置检测区域（两种方式任选其一）
